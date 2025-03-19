@@ -11,4 +11,4 @@ Mac的Retina及其他高分辨率屏幕下查看Demo可能出现缩放异常，�
 
 - Demo 演示地址：https://datav-vue3-demo.netlify.app/
 - Demo Github 源码地址：https://github.com/vaemusic/electronic-file
-- Demo Gitee 源码地址：https://gitee.com/kjgl77/electronic-file
+- Demo Gitee 源码地址：https://gitee.com/lyh/electronic-file

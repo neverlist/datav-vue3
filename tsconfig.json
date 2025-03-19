@@ -26,10 +26,10 @@
       "@*": [
         "src/*"
       ],
-      "@kjgl77/datav-vue3/*": [
+      "@luyinghao159/datav-vue3/*": [
         "packages/datav-vue3/*"
       ],
-      "@kjgl77/docs/*": [
+      "@luyinghao159/docs/*": [
         "packages/docs/*"
       ]
     },

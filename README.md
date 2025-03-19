@@ -1,8 +1,8 @@
 # DataV Vue3+TS+Vite版
 
-[![Author](https://img.shields.io/badge/Author-kjgl77-red.svg "Author")](https://github.com/vaemusic "Author")       [![LICENSE](https://img.shields.io/github/license/vaemusic/datav-vue3 "LICENSE")](https://github.com/vaemusic/datav-vue3/blob/master/LICENSE "LICENSE")
+[![Author](https://img.shields.io/badge/Author-lyh-red.svg "Author")](https://github.com/vaemusic "Author")       [![LICENSE](https://img.shields.io/github/license/vaemusic/datav-vue3 "LICENSE")](https://github.com/neverlist/datav-vue3/blob/master/LICENSE "LICENSE")
 
-[![NPM](https://nodei.co/npm/@kjgl77/datav-vue3.png?mini=true)](https://www.npmjs.com/package/@kjgl77/datav-vue3)
+[![NPM](https://nodei.co/npm/@luyinghao159/datav-vue3.png?mini=true)](https://www.npmjs.com/package/@luyinghao159/datav-vue3)
 
 本库来源自 [DataV-Team/DataV](https://github.com/DataV-Team/DataV)，另外，大佬的 [DataV-Vue3](https://github.com/DataV-Team/DataV-Vue3) 项目也已经在开发中了，地址：https://github.com/DataV-Team/DataV-Vue3
 
@@ -11,27 +11,27 @@
 
 - [文档地址](https://datav-vue3.netlify.app)：https://datav-vue3.netlify.app
 
-- [Gitee地址](https://gitee.com/kjgl77/datav-vue3)：https://gitee.com/kjgl77/datav-vue3
+- [Gitee地址](https://gitee.com/lyh/datav-vue3)：https://gitee.com/lyh/datav-vue3
 
-- [Github地址](https://github.com/vaemusic/datav-vue3)：https://github.com/vaemusic/datav-vue3
+- [Github地址](https://github.com/neverlist/datav-vue3)：https://github.com/neverlist/datav-vue3
 
 - [Demo预览地址](https://datav-vue3-demo.netlify.app/)：https://datav-vue3-demo.netlify.app/
 
-- [Demo Gitee地址](https://gitee.com/kjgl77/electronic-file)：https://gitee.com/kjgl77/electronic-file
+- [Demo Gitee地址](https://gitee.com/lyh/electronic-file)：https://gitee.com/lyh/electronic-file
 
 - [Demo Github地址](https://github.com/vaemusic/electronic-file)：https://github.com/vaemusic/electronic-file
 
 ## 使用方法
 - 安装，此处使用pnpm工具，也可以yarn,npm等
 ```shell
-pnpm install @kjgl77/datav-vue3
+pnpm install @luyinghao159/datav-vue3
 ```
 ### 全局引入
 
 ```ts
 // main.ts中全局引入
 import { createApp } from 'vue'
-import DataVVue3 from '@kjgl77/datav-vue3'
+import DataVVue3 from '@luyinghao159/datav-vue3'
 
 const app = createApp(App)
 
@@ -47,7 +47,7 @@ app.mount('#app')
 ```html
 <!-- 在.vue文件的script中import部分组件 -->
 <script lang="ts" setup>
-import { Decoration1, Decoration2 } from '@kjgl77/datav-vue3'
+import { Decoration1, Decoration2 } from '@luyinghao159/datav-vue3'
 </script>
 <template>
   <!-- 引入之后就可以在vue的template中直接使用 -->

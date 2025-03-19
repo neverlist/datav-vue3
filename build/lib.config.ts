@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: 'dist',
     lib: {
       entry: resolve(__dirname, '../packages/datav-vue3/index.ts'),
-      name: '@kjgl/datav-vue3',
+      name: '@luyinghao159/datav-vue3',
       fileName: format => `datav-vue3.${format}.js`,
     },
     rollupOptions: {

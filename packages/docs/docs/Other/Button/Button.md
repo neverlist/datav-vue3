@@ -35,7 +35,7 @@ import demo from './demo.vue'
 
 自定义 svg 边框组件的实现可以参考 button 源码中 BorderBox1 ~ BorderBox6 的代码，
 
-svg 边框组件源码文件位置：https://github.com/vaemusic/datav-vue3/blob/master/packages/datav-vue3/components/Button/src/BorderBox1.vue
+svg 边框组件源码文件位置：https://github.com/neverlist/datav-vue3/blob/master/packages/datav-vue3/components/Button/src/BorderBox1.vue
 
-示例代码文件地址：https://github.com/vaemusic/datav-vue3/blob/master/packages/example/src/topHeader.vue#L23
+示例代码文件地址：https://github.com/neverlist/datav-vue3/blob/master/packages/example/src/topHeader.vue#L23
 :::

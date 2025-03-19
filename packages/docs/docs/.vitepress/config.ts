@@ -82,7 +82,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/vaemusic/datav-vue3',
+        link: 'https://github.com/neverlist/datav-vue3',
       },
     ],
     nav: [

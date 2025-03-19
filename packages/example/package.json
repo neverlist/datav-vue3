@@ -1,5 +1,5 @@
 {
-  "name": "@kjgl77/example",
+  "name": "@luyinghao159/example",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kjgl77/datav-vue3": "workspace:*"
+    "@luyinghao159/datav-vue3": "workspace:*"
   },
   "devDependencies": {
     "unocss": "^0.60.4"

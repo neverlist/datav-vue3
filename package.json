@@ -4,14 +4,14 @@
   "description": "Datav for vue3+vite",
   "license": "MIT",
   "private": "true",
-  "homepage": "https://github.com/vaemusic/datav-vue3",
+  "homepage": "https://github.com/neverlist/datav-vue3",
   "type": "module",
   "scripts": {
-    "dev": "pnpm run --filter @kjgl77/docs docs:dev",
-    "dev:docs": "pnpm run --filter @kjgl77/docs dev",
+    "dev": "pnpm run --filter @luyinghao159/docs docs:dev",
+    "dev:docs": "pnpm run --filter @luyinghao159/docs dev",
     "build:docs": "pnpm run build:lib && pnpm run build",
-    "build": "pnpm run --filter @kjgl77/docs build",
-    "build:lib": "pnpm run --filter @kjgl77/datav-vue3 build:lib",
+    "build": "pnpm run --filter @luyinghao159/docs build",
+    "build:lib": "pnpm run --filter @luyinghao159/datav-vue3 build:lib",
     "gen": "node ./script/genNewComp/index.js",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaemusic/datav-vue3.git"
+    "url": "git+https://github.com/neverlist/datav-vue3.git"
   },
   "bugs": {
-    "url": "https://github.com/vaemusic/datav-vue3/issues"
+    "url": "https://github.com/neverlist/datav-vue3/issues"
   }
 }

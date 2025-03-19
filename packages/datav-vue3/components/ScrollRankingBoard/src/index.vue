@@ -7,7 +7,7 @@
       :style="`height: ${state.heights[i]}px;`"
     >
       <div class="ranking-info">
-        <div class="rank">
+        <div class="rank"  :style="`color:${item.color}`">
           No.{{ item.ranking }}
         </div>
         <div class="info-name" v-html="item.name" />
@@ -16,10 +16,10 @@
         </div>
       </div>
 
-      <div class="ranking-column">
+      <div class="ranking-column" :style="`border-bottom: 2px solid ${fade(item.color,50)};`">
         <div
           class="inside-column"
-          :style="`width: ${item.percent}%;`"
+          :style="`width: ${item.percent}%;background-color:${item.color}`"
         >
           <div class="shine" />
         </div>
